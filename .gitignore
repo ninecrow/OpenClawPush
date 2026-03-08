@@ -1,0 +1,58 @@
+# 敏感文件
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 模型文件（较大，可选是否提交）
+*.json
+!predict_config.json
+
+# 数据文件
+*.csv
+*.xlsx
+*.db
+*.sqlite
+
+# 日志
+*.log
+predict.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+
+# 输出目录（可选）
+signals/
+models/
